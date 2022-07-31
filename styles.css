@@ -1,0 +1,108 @@
+body {
+  position: fixed;
+  margin: auto;
+  display: block;
+  height: 100%;
+  width: 100%;
+  background-color: #d9e4d8;
+}
+
+.card {
+  font-family: "PT Serif", serif;
+  color: rgb(36, 36, 36);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  border-radius: 20px;
+  height: 580px;
+  max-width: 370px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+#dayDate {
+  text-align: center;
+  position: relative;
+}
+
+#city {
+  text-align: center;
+  position: relative;
+  font-weight: 700;
+}
+
+#h2 {
+  text-align: center;
+  position: relative;
+}
+
+#search-form {
+  text-align: center;
+  position: relative;
+}
+
+.humidityWind {
+  text-align: center;
+  position: relative;
+}
+
+.weather-icon {
+  height: 64px;
+  width: 64px;
+  margin-right: -2px;
+  margin-top: -30px;
+}
+
+.units {
+  position: relative;
+  top: -34px;
+}
+
+#forecastDays {
+  font-weight: bold;
+}
+
+.submitButton {
+  border-radius: 5px;
+  background-color: #1f79d8;
+  color: #f5f5f5;
+  padding: 3px 7px;
+}
+
+.currentLocationButton {
+  border-radius: 5px;
+  background-color: #2aa548;
+  color: #f5f5f5;
+  margin-top: 10px;
+  padding: 3px 5px;
+}
+
+.temperature {
+  font-size: 55px;
+  line-height: 2;
+}
+
+ul {
+  list-style: none;
+  position: relative;
+  top: -100px;
+  left: 260px;
+}
+
+#description {
+  list-style: none;
+  position: relative;
+  left: 68px;
+  top: -30px;
+}
+
+.left {
+  position: relative;
+  bottom: -260px;
+}
+
+.right {
+  position: relative;
+  right: 70px;
+  bottom: -270px;
+}
